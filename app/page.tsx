@@ -24,12 +24,12 @@ export default async function BlogPage() {
 
   return (
     <div className="container max-w-3xl py-6 lg:py-10">
-      <h2 className="text-3xl lg:text-5xl font-bold text-center lg:text-left">
+      <h2 className="text-3xl lg:text-5xl font-bold text-left">
         I write about life, sometimes self improvement and barely software
-        engineering,
+        engineering.
       </h2>
-      <p className="italic text-center lg:text-left mt-2 text-muted-foreground mb-5 lg:mb-20">
-        truly hope you enjoy it.
+      <p className="italic text-left mt-2 text-muted-foreground mb-5 lg:mb-20">
+        Truly hope you enjoy it.
       </p>
       <hr className="mb-5" />
       {pinnedPosts?.length !== 0 && (

@@ -44,7 +44,7 @@ function PostList(props: PostListProps) {
       })}
       {/* pagiantion start */}
       {showPagination && (
-        <div className="flex justify-end mt-5">
+        <div className="flex justify-center lg:justify-end mt-5">
           <div className="flex gap-3">
             <Button
               size="sm"
