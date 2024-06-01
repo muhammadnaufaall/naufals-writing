@@ -50,7 +50,7 @@ export const Post = defineDocumentType(() => ({
     },
     avatar: {
       type: 'string',
-      default: '/images/authors/pale.jpg',
+      default: '/images/authors/naufal.jpg',
     },
     minutesToRead: {
       type: 'number',
