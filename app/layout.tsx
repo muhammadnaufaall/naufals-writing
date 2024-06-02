@@ -1,9 +1,11 @@
 import Navbar from '@/components/navbar';
 import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/sonner';
+import { Analytics } from '@vercel/analytics/react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+
 import Footer from '@/components/footer';
 import NextTopLoader from 'nextjs-toploader';
 
@@ -40,6 +42,7 @@ export default function RootLayout({
           <Navbar />
           <main className="min-h-[calc(100vh-113px)] lg:min-h-[calc(100vh-140px)]">
             {children}
+            <Analytics />
           </main>
           <Footer />
         </ThemeProvider>
