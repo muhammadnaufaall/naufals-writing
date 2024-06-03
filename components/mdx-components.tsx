@@ -1,11 +1,8 @@
-import * as React from 'react';
-import Image from 'next/image';
 import { useMDXComponent } from 'next-contentlayer/hooks';
+import Image from 'next/image';
+import * as React from 'react';
 
 import { cn } from '@/lib/utils';
-import { Button } from './ui/button';
-import { Icons } from './icons';
-import Link from 'next/link';
 
 interface Component {
   className?: string;

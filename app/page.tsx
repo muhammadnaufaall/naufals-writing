@@ -2,7 +2,6 @@ import { allPosts } from 'contentlayer/generated';
 import { compareDesc } from 'date-fns';
 
 import { Icons } from '@/components/icons';
-import PostCard from '@/components/post-card';
 import PostList from '@/components/post-list';
 
 export const metadata = {
